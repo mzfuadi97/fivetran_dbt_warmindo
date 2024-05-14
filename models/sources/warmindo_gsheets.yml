@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: warmindo_gsheets
+    database: {project_id}
+    schema: fivetran_lake
+    description: This is a source for all gsheets ingested through fivetrans
+    
+    tables:
+      - name: warmindo_invoices
+      

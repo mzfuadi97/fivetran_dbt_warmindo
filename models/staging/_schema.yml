@@ -1,0 +1,23 @@
+version: 2
+
+documents:
+  - name: warmindo_invoices_cust_id
+    description: "The unique identifier for the customer."
+  - name: warmindo_invoices_invoice_id
+    description: "The unique identifier for the invoice."
+  - name: warmindo_invoices_invoice_date
+    description: "The date when the invoice was created."
+  - name: warmindo_invoices_jenis_pembayaran
+    description: "The type of payment for the invoice."
+  - name: warmindo_invoices_kategori_produk
+    description: "The category of the product."
+  - name: warmindo_invoices_jenis_produk
+    description: "The type of the product."
+  - name: warmindo_invoices_nama_produk
+    description: "The name of the product."
+  - name: warmindo_invoices_harga_jual
+    description: "The selling price of the product."
+  - name: warmindo_invoices_qty
+    description: "The quantity of the product sold."
+  - name: warmindo_invoices_sub_total
+    description: "The subtotal of the invoice."
